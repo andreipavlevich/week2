@@ -1,6 +1,6 @@
 {
   "headers": {
-      "/sample/": {
+      "/**": {
         "Content-Type": "text/plain; charset=UTF-8",
         "X-Author": "andreipavlevich",
         "Access-Control-Allow-Origin": "*"
