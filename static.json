@@ -1,7 +1,6 @@
 {
   "headers": {
-      "/*": {
-  
+      "/login/": {
         "Access-Control-Allow-Origin": "*"
             }
        }
