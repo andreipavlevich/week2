@@ -5,5 +5,10 @@
         "X-Author": "andreipavlevich",
         "Access-Control-Allow-Origin": "*"
             }
+          "/fetch/": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "X-Author": "andreipavlevich",
+        "Access-Control-Allow-Origin": "*"
+            }
        }
 }
