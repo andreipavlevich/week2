@@ -5,18 +5,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 </head>
 <body>
   <input type='text' id='inp'>
   <button id='bt'>button</button>
   <script>
-    bt.addEventListener('click', async function doButtonClick(){
-    let url = document.getElementById('inp').value;
-    let response = await fetch(url);
-    let text = await response.text();
-    document.getElementById('inp').value = text;
+    bt.addEventListener('click', async function doButtonClick()
+      {
+        let url = document.getElementById('inp').value;
+        let response = await fetch(url);
+        let text = await response.text();
+        document.getElementById('inp').value = text;
     });
   </script>
 </body>
